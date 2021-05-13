@@ -1,0 +1,233 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#navbar {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  top: 0px;
+}
+
+#navbar::before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 70px;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#logo {
+  margin: 5px 6px;
+}
+
+#logo img {
+  width: 70px;
+  margin: 5px 6px;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+#navbar ul li {
+  font-weight: bold;
+  list-style: none;
+}
+
+#navbar ul li a {
+  font-family: "Baloo Bhai", cursive;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+#what {
+  display: flex;
+  margin: 30px;
+  padding: 5px 200px;
+  height: 400px;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+#what::before {
+  content: "";
+  position: absolute;
+  background-image: url(img/square\ mask.jpg);
+  height: 400px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#what h1 {
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family: "baloo bhai", cursive;
+  font-size: 1.8rem;
+}
+
+#p1 {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  font-family: "baloo bhai", cursive;
+  font-size: 1.1rem;
+}
+
+#what .button {
+  margin: 10px;
+  padding: 15px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: brown;
+  font-family: "baloo bhai", cursive;
+  font-weight: bold;
+  color: #F5F5DC;
+  align-items: center;
+  justify-items: center;
+}
+
+#what .button:hover {
+  color: black;
+  background-color: red;
+}
+
+#about {
+  margin: 40px;
+  display: flex;
+}
+
+#about .box {
+  padding: 50px;
+  border: 2px solid brown;
+  padding: 27px;
+  margin: 2px 55px;
+  border-radius: 28px;
+  background: #f2f2f2;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "baloo bhai", cursive;
+}
+
+#about .box img {
+  height: 200px;
+}
+
+#about .box h2 {
+  display: flex;
+  padding: 10px;
+  margin: -8px;
+  align-items: center;
+  justify-content: center;
+}
+
+#about .box p {
+  display: flex;
+  padding: 5px;
+  margin: 20px;
+}
+
+#contacts {
+  padding: 10px;
+  position: sticky;
+  height: 100px;
+  font-family: "baloo bhai", cursive;
+  align-items: center;
+  justify-content: center;
+}
+
+#fc {
+  position: sticky;
+  height: 300px;
+}
+
+#fc::before {
+  content: "";
+  position: absolute;
+  background-image: url(img/Absract.jpg);
+  height: 300px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#contacts h2 {
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2.0rem;
+  color: red;
+  justify-content: center;
+}
+
+#contacts p {
+  font-size: 1.3rem;
+  padding: 16px;
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+
+#form {
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  height: 170px;
+  font-family: "baloo bhai", cursive;
+}
+
+#username {
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#type {
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#region {
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
